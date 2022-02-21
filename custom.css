@@ -1,0 +1,20 @@
+.container-fluid{
+	background-color: white;
+	/*border:1px solid red;*/
+	width: 600px;	
+}
+.mine {
+	background-color: white;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 40px;
+	/*border:1px solid red;*/
+	color:black;
+}
+.mine:hover {
+	color:black;
+}
+.d-flex {
+	border:1px solid red;
+}
+

@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;400;700;900&display=swap');
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;*/
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.max {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	display: flex;
+}
+.logo img {
+	width:50px;
+	height: 50px;
+}
+.logo h1 {
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 10px;
+	font-weight: 900;
+}
+.logo a {
+	text-decoration: none;
+	color:black;
+}
+.logo a:hover {
+	color:black;
+}
+.block1 {
+	padding: 10px;
+}
+.max {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*border:1px solid red;*/
+}
+.logo {
+	/*border:1px solid red;*/
+}
+.logo a {
+	font-size: 30px;
+    padding:5px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.block1 ul {
+	margin-top: 10px;
+	width: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/*border:1px solid red;*/
+}
+.block1 ul li {
+	list-style-type: none;
+}
+.block1 ul a {
+	text-decoration: none;
+	color:black;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+.block1 ul a:hover {
+	color:#ff6600;
+}
+.block2 {
+background-image: url('./img/Без имени-1.png');
+background-repeat: no-repeat;
+background-size: 100%;
+min-height: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blocks_txt {
+	height: 150vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color:white;
+	font-family: 'Bebas Neue', cursive;
+}
+.blocks_txt h1 {
+	font-size: 50px;
+	text-align: center;
+}
+.blocks_txt p {
+	font-size:20px;
+}
+.button_get {
+	width: 100px;
+	text-align: center;
+	border:1px solid white;
+	padding:10px;
+	border-radius: 5px;
+	text-decoration: none;
+	color:white;
+}
+.button_get:hover {
+	background-color: white;
+	color:black;
+}
+.text_about {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.text_about h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+.text_about p {
+    font-family: 'Montserrat', cursive;
+    font-size: 20px;
+}
+
+.onna {
+	text-align: center;
+}
+.about_us {
+	margin-top:40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+.div1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.div1 p {
+	margin-top:10px;
+}
+.why_we{
+	margin-top: 100px;
+}
+.why {
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.div2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.div2 h1 {
+	font-size: 25px;
+	margin-top: 30px;
+}
+.block3 {
+	margin-top: 100px;
+}
+.cards {
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.card {
+	margin-top: 30px;
+}
+.carousel {
+	margin-top: 50px;
+}
+.block4 {
+	margin-top: 100px;
+}
+.price_list {
+	margin-top: 100px;
+}
+.caprice {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.gas {
+	height: 400px;
+	width:300px;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:space-around;
+	text-align: center;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.04);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+.gas h1 {
+	text-transform:uppercase;
+	font-size: 25px;
+}
+.gas a {
+	background-color: blue;
+	padding: 10px;
+	border-radius: 10px;
+	width:150px;
+	color:white;
+	text-decoration: none;
+}
+.gas a:hover {
+	color:white;
+}
+.block5 {
+	margin-top: 100px;
+}
+.gets {
+margin-top:20px;
+}
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.form input {
+	margin-top: 40px;
+	width: 400px;
+	height: 50px;
+	border:none;
+	border:1px solid #555;
+	border-radius:5px;
+	padding-left:15px;
+	padding-right:15px; 	
+}
+.knopka {
+	cursor: pointer;
+}
+footer {
+	margin-top: 60px;
+}
+.mmmm {
+	padding-top: 100px;
+}
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #e0e0e0;
+  z-index: 1001;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #337ab7;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: -1s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-bounce {
+
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
+.menimen {
+	padding:5px; 
+	border-radius:15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70px;
+	background-color:rgba(0,0,0,0.2);
+	position: fixed;
+	top: 580px;
+	left:1250px;
+	cursor: pointer;
+}
+.menimen img {
+	width: 50px;
+}
+.okay {
+	cursor: pointer;
+	width: 50px;
+	display: none;
+}
+.max .mainstream {
+	display: block;
+
+}
